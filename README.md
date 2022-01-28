@@ -13,3 +13,4 @@
 - [Day5](./Book/CleanCode/Day5.md)
 - [Day6](./Book/CleanCode/Day6.md)
 - [Day7](./Book/CleanCode/Day7.md)
+- [Day8](./Book/CleanCode/Day8.md)
