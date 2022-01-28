@@ -1,4 +1,5 @@
 # Today I Learned
+배운 것을 꾸준히 기록합니다 😎
 
 ## JAVA
 - [자바 시작하기](./Java/Tutorial.md)
