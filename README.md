@@ -50,6 +50,9 @@
 - [HTTP 상태코드](./Network/Http/HttpStatusCode.md)
 - [HTTP 헤더](./Network/Http/HttpHeader.md)
 
+## Etc
+- [War와 Jar란 무엇일까?](./Etc/WarAndJar.md)
+
 ## BOOK
 #### ClEANCODE
 - [Day1](./Book/CleanCode/Day1.md)
