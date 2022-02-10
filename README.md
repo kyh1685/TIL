@@ -22,22 +22,26 @@
 ## SPRING
 
 ### 입문
-- [Spring Boot 프로젝트 환경 설정](./Spring/SpringbootSettings.md)
-- [스프링 웹 개발 기초](./Spring/SpringWebFoundation.md)
-- [회원관리 예제 - 백엔드 개발](./Spring/MemberControllExample_Backend.md)
-- [스프링 빈과 의존관계](./Spring/SpringBeanAndDependency.md)
-- [회원 관리 예제 - 웹 MVC 개발](./Spring/MemberControllExample_WebMVC.md)
-- [스프링 DB 접근 기술](./Spring/SpringDBAccessTechnology.md)
+- [Spring Boot 프로젝트 환경 설정](./Spring/basic/SpringbootSettings.md)
+- [스프링 웹 개발 기초](./Spring/basic/SpringWebFoundation.md)
+- [회원관리 예제 - 백엔드 개발](./Spring/basic/MemberControllExample_Backend.md)
+- [스프링 빈과 의존관계](./Spring/basic/SpringBeanAndDependency.md)
+- [회원 관리 예제 - 웹 MVC 개발](./Spring/basic/MemberControllExample_WebMVC.md)
+- [스프링 DB 접근 기술](./Spring/basic/SpringDBAccessTechnology.md)
 - [AOP](./Spring/AOP.md)
 
 ### 기본
-- [객체 지향 설계와 스프링](./Spring/SpringAndOOP.md)
-- [객체 지향 원리 적용](./Spring/OOPApplicationOfPrinciples.md)
-- [스프링 컨테이너와 스프링 빈](./Spring/SpringContainerAndBean.md)
-- [컴포넌트 스캔](./Spring/ComponentScan.md)
-- [의존관계 자동 주입](./Spring/AutoInjectingDependency.md)
-- [빈 생명주기 콜백](./Spring/BeanLifeCycleCallback.md)
-- [빈 스코프](./Spring/BeanScope.md)
+- [객체 지향 설계와 스프링](./Spring/core/SpringAndOOP.md)
+- [객체 지향 원리 적용](./Spring/core/OOPApplicationOfPrinciples.md)
+- [스프링 컨테이너와 스프링 빈](./Spring/core/SpringContainerAndBean.md)
+- [컴포넌트 스캔](./Spring/core/ComponentScan.md)
+- [의존관계 자동 주입](./Spring/core/AutoInjectingDependency.md)
+- [빈 생명주기 콜백](./Spring/core/BeanLifeCycleCallback.md)
+- [빈 스코프](./Spring/core/BeanScope.md)
+
+### mvc
+- [웹 어플리케이션 이해](./Spring/mvc/WebApplication.md)
+- [서블릿](./Spring/mvc/Servlet.md)
 
 ## NETWORK
 
