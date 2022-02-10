@@ -72,3 +72,4 @@
 - [Day17](./Book/CleanCode/Day17.md)
 - [Day18](./Book/CleanCode/Day18.md)
 - [Day20](./Book/CleanCode/Day20.md)
+- [Day21](./Book/CleanCode/Day21.md)
