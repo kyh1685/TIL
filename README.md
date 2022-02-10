@@ -42,6 +42,7 @@
 ### mvc
 - [웹 애플리케이션 이해](./Spring/mvc/WebApplication.md)
 - [서블릿](./Spring/mvc/Servlet.md)
+- [서블릿, JSP, MVC 패턴](./Spring/mvc/ServletAndJspAndMVC.md)
 
 ## NETWORK
 
