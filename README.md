@@ -40,7 +40,7 @@
 - [빈 스코프](./Spring/core/BeanScope.md)
 
 ### mvc
-- [웹 어플리케이션 이해](./Spring/mvc/WebApplication.md)
+- [웹 애플리케이션 이해](./Spring/mvc/WebApplication.md)
 - [서블릿](./Spring/mvc/Servlet.md)
 
 ## NETWORK
