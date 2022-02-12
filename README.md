@@ -44,6 +44,7 @@
 - [서블릿](./Spring/mvc/Servlet.md)
 - [서블릿, JSP, MVC 패턴](./Spring/mvc/ServletAndJspAndMVC.md)
 - [스프링 MVC - 구조 이해](./Spring/mvc/SpringMVCStructure.md)
+- [스프링 MVC - 기본 기능](./Spring/mvc/SpringMVCFunction.md)
 
 ## NETWORK
 
