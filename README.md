@@ -61,22 +61,4 @@
 - [War와 Jar란 무엇일까?](./Etc/WarAndJar.md)
 
 ## BOOK
-#### ClEANCODE
-- [Day1](./Book/CleanCode/Day1.md)
-- [Day2](./Book/CleanCode/Day2.md)
-- [Day3](./Book/CleanCode/Day3.md)
-- [Day4](./Book/CleanCode/Day4.md)
-- [Day5](./Book/CleanCode/Day5.md)
-- [Day6](./Book/CleanCode/Day6.md)
-- [Day7](./Book/CleanCode/Day7.md)
-- [Day8](./Book/CleanCode/Day8.md)
-- [Day9](./Book/CleanCode/Day9.md)
-- [Day10](./Book/CleanCode/Day10.md)
-- [Day11](./Book/CleanCode/Day11.md)
-- [Day12](./Book/CleanCode/Day12.md)
-- [Day13](./Book/CleanCode/Day13.md)
-- [Day15](./Book/CleanCode/Day15.md)
-- [Day17](./Book/CleanCode/Day17.md)
-- [Day18](./Book/CleanCode/Day18.md)
-- [Day20](./Book/CleanCode/Day20.md)
-- [Day21](./Book/CleanCode/Day21.md)
+- [Clean Code](./Book/CleanCode/CleanCode.md)
