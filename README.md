@@ -46,6 +46,12 @@
 - [스프링 MVC - 구조 이해](./Spring/mvc/SpringMVCStructure.md)
 - [스프링 MVC - 기본 기능](./Spring/mvc/SpringMVCFunction.md)
 
+### JPA
+- [프로젝트 환경설정](./Spring/SpringBootAndJPA/ProjectSetting.md)
+- [도메인 분석 설계](./Spring/SpringBootAndJPA/DomainDesign.md)
+- [도메인 개발](./Spring/SpringBootAndJPA/DomainDevelopment.md)
+- [웹 계층 개발](./Spring/SpringBootAndJPA/WebLayerDevelopment.md)
+
 ## NETWORK
 
 ### HTTP
@@ -56,6 +62,9 @@
 - [HTTP 메서드 활용](./Network/Http/HttpMethodApplication.md)
 - [HTTP 상태코드](./Network/Http/HttpStatusCode.md)
 - [HTTP 헤더](./Network/Http/HttpHeader.md)
+
+## Algorithm
+- [빅오 표기법](./Algorithm/BigONotation.md)
 
 ## Etc
 - [War와 Jar란 무엇일까?](./Etc/WarAndJar.md)
