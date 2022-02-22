@@ -3,8 +3,9 @@
 
 > **📌 참고**
 >
-**시간 복잡도(time complexity)** : 알고리즘이 답을 도출하기까지 걸리는 시간
-**공간 복잡도(space complexity)** : 필요한 메모리를 측정
+>**시간 복잡도(time complexity)** : 알고리즘이 어떤 문제를 해결하는데 걸리는 시간을 의미
+>
+>**공간 복잡도(space complexity)** : 얼마나 많은 공간(메모리)을 차지하는지 의미
 
 ### 정의
 - 어떤 양수 n0(n의 0차수), c(계수)이 존재할 때 <span style='padding: 2px; background-color: #e2e2e2; border-radius: 4px'>f(n)은 O(g(n))</span>이다. 
