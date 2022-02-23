@@ -79,5 +79,4 @@
 
 **[네트워크 전달방식 비교 (Packet switching, Circuit switching)](https://swalloow.tistory.com/55)**
 
-⭐ **[1-1. 컴퓨터 네트워크 기본 1](https://dev-nicitis.tistory.com/22?category=1015442)
-**
+⭐ **[1-1. 컴퓨터 네트워크 기본 1](https://dev-nicitis.tistory.com/22?category=1015442)**
