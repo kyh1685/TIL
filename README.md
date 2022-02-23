@@ -52,7 +52,11 @@
 - [도메인 개발](./Spring/SpringBootAndJPA/DomainDevelopment.md)
 - [웹 계층 개발](./Spring/SpringBootAndJPA/WebLayerDevelopment.md)
 
+## Operating System
+- [운영체제란 무엇인가?](./OperatingSystem/OperatingSystem.md)
+
 ## NETWORK
+- [컴퓨터 네트워크 기본](./Network/ComputerNetworkBasic.md)
 
 ### HTTP
 - [인터넷 네트워크](./Network/Http/InternetNetwork.md)
@@ -65,6 +69,7 @@
 
 ## Algorithm
 - [빅오 표기법](./Algorithm/BigONotation.md)
+- [완전 탐색](./Algorithm/Brute-forceSearch.md)
 
 ## Etc
 - [War와 Jar란 무엇일까?](./Etc/WarAndJar.md)
