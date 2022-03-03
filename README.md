@@ -54,6 +54,7 @@
 
 ## Operating System
 - [운영체제란 무엇인가?](./OperatingSystem/OperatingSystem.md)
+- [시스템 구조와 프로그램 실행](./OperatingSystem/SystemArchitecture.md)
 
 ## NETWORK
 - [컴퓨터 네트워크 기본](./Network/ComputerNetworkBasic.md)
@@ -70,6 +71,8 @@
 ## Algorithm
 - [빅오 표기법](./Algorithm/BigONotation.md)
 - [완전 탐색](./Algorithm/Brute-forceSearch.md)
+- [탐욕적 기법](./Algorithm/GreedyAlgorithm.md)
+- [분할 정복](./Algorithm/DivideAndConquer.md)
 
 ## Etc
 - [War와 Jar란 무엇일까?](./Etc/WarAndJar.md)
