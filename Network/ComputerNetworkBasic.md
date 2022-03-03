@@ -72,6 +72,52 @@
 #### Propagation delay
 링크를 따라 다음 라우터까지 전달되는 데에 걸리는 시간을 말한다.
 
+# 네트워크 계층
+- **Application** :  HTTP
+- **Transport** : TCP/UDP
+- **Network** : IP
+- **Link** : Wifi, LTE/3G, Ethernet
+- **Physical**
+
+>**✔ 네트워크 계층 구조에서 하위 계층은 상위 계층에 기능을 제공**
+예) 전송 계층은 애플리케이션 계층에 고유한 기능을 제공한다.
+>
+**✔ TCP는 데이터 무결성(data integrity)을 보장**
+
+## ✔️ 애플리케이션 계층
+애플리케이션 계층은 우리 눈에 보이는 프로세스를 말한다. 
+
+### 서버 클라이언트 구조
+- 서버는 정보를 제공하고 클라이언트는 그 정보를 받는다.
+- 서버는 <span style='padding: 0px 7px; background-color: #fff5b1; border-radius: 4px'>고정된 IP</span>를 가진다.
+
+### 프로세스 간 통신
+- 같은 호스트의 프로세스 간에 통신을 하는 것을 프로세스 간 통신(IPC)이라고 하며 프로세스 사이에 파이프를 연결해서 통신한다.
+- 네트워크는 <span style='padding: 0px 7px; background-color: #fff5b1; border-radius: 4px'>서로 다른 호스트의 프로세스 간에 통신</span>하는 것을 말하며 앱 사이를 소켓으로 연결하여 통신한다.
+
+### 소켓(socket)
+- 프로세스는 소켓을 통해 통신한다. 클라이언트 프로세스에 있는 소켓에서 메시지를 보내면 서버 프로세스에 있는 소켓에서 메시지를 받는다.
+- 소켓은 <span style='padding: 0px 7px; background-color: #fff5b1; border-radius: 4px'>호스트를 식별하기위해 IP와 포트 번호를 사용</span>한다.
+
+### HTTP(HyperText Transfer Protocol)
+- 애플리케이션 계층 프로토콜로 하이퍼텍스트를 전송한다.
+- request(요청)과 response(응답)을 주고 받는다.
+👉 <span style='padding: 0px 7px; background-color: #fff5b1; border-radius: 4px'>TCP Connection을 생성</span>하고 요청과 응답을 주고받는다.
+- 클라이언트의 상태를 저장하지 않는다.
+👉 <span style='padding: 0px 7px; background-color: #fff5b1; border-radius: 4px'>stateless</span>
+
+#### HTTP 연결 방식
+HTTP가 TCP를 사용하는 방식에 따라 두가지로 나뉜다.
+
+- <span style='padding: 0px 7px; background-color: #e2e2e2; border-radius: 4px'>비지속형(non-persistent) HTTP </span>
+  - 한번 클라이언트와 연결되고 데이터를 주고받으면 TCP 연결을 끊음
+  👉 데이터를 주고받을 때마다 TCP를 연결하기 때문에 비효율적
+- <span style='padding: 0px 7px; background-color: #e2e2e2; border-radius: 4px'>지속형(persistent) HTTP</span>
+  - TCP 연결을 계속 유지
+  👉 하나의 TCP 연결로 여러개의 HTTP 전송을 하기 때문에 효율적
+
+**📌 현재 웹브라우저는 persistent HTTP를 사용**
+
 ### 참고
 **[네트워크 구성 (Network core, Network edge, Access network)](https://ddongwon.tistory.com/69)**
 
@@ -80,3 +126,7 @@
 **[네트워크 전달방식 비교 (Packet switching, Circuit switching)](https://swalloow.tistory.com/55)**
 
 ⭐ **[1-1. 컴퓨터 네트워크 기본 1](https://dev-nicitis.tistory.com/22?category=1015442)**
+
+**[1-2. 컴퓨터 네트워크 기본 2](https://dev-nicitis.tistory.com/24)**
+
+**[컴퓨터 네트워크 02 애플리케이션 계층](https://velog.io/@protect-me/02)**
