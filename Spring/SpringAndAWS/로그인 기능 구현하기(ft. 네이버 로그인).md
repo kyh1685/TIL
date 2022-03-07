@@ -69,3 +69,33 @@ testImplementation('org.springframework.security:spring-security-test')
 - 인증된 모의 사용자를 만들어서 사용
 - roles에 권한을 추가할 수 있음
 - 이 어노테이션으로 인해 ROLE_USER 권한을 가진 사용자가 API를 요청하는 것과 동일한 효과를 가짐
+>
+**🚨 @WithMockUser는 MockMvc에서만 작동**
+>
+PostsApiControllerTest는 @SpringBootTest로만 되어 있기 때문에 작동하지 않는다. 그래서 @SpringBootTest가 MockMvc를 사용하도록 코드를 변경한다.
+>
+<span style='padding: 2px; background-color: #e2e2e2; border-radius: 4px'>@Before</span>
+- 매번 테스트가 시작되기 전에 MockMvc 인스턴스 생성
+>
+<span style='padding: 2px; background-color: #e2e2e2; border-radius: 4px'>mvc.perform</span>
+- 생성된 MockMvc를 통해 API를 테스트한다.
+- Body 영역은 문자열로 표현하기 위해 ObjectMapper를 통해 문자열 JSON으로 변환한다.
+
+### 문제 3 @WebMvcTest에서 CustomOAuth2UserService를 찾을 수 없음
+@WebMvcTest는 WebSecurityConfigurerAdapter, WebMvcConfigurer을 비롯한 @ControllerAdvice, @Controlelr를 읽는다.
+👉 **@Repository, @Service, @Component는 스캔 대상이 아님**
+
+<span style='padding: 2px; background-color: #e2e2e2; border-radius: 4px'>SecurityConfig는 읽었으나 SecurityConfig 생성을 위해 필요한 CustomOAuth2UserService는 읽을 수가 없어 발생</span>
+
+**💡 이를 해결하기 위해 스캔 대상에서 SecurityConfig를 제거**
+
+HelloControllerTest도 @WithMockUser을 사용해 가짜로 인증된 사용자를 생성한다.
+
+다시 테스트해보면 @EnableJpaAuditing로 인해 IllegalArgumentException이 발생한다.
+👉 <span style='padding: 2px; background-color: #e2e2e2; border-radius: 4px'>@EnableJpaAuditing을 사용하려면 하나 이상의 @Entity 클래스가 필요하기 때문</span>
+
+@EnableJpaAuditing가 @SpringBootApplication과 함께 있어서 @WebMvcTest에서도 스캔하게 됨
+👉 **@EnableJpaAuditing과 @SpringBootApplication 분리**
+
+- Application.java에서 @EnableJpaAuditing를 제거
+- config 패키지에 JpaConfig를 생성하여 @EnableJpaAuditing 추가
